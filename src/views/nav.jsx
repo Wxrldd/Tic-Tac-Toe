@@ -1,16 +1,18 @@
 import '../index.css';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.svg';
 
 const NavBar = () => {
   return (
     <div className="navbar-container">
       <div className="navbar">
         <div className="navbar-logo">
-          <p>Ici il y aura l'image</p>
+        <img src={logo} alt="Flèche" />
         </div>
         <div className="navbar-buttons">
-          <button>Accueil</button>
-          <button>Jouer au jeu</button>
-          <button>Classement</button>
+        <Link to="/"><button>Accueil</button></Link> 
+        <Link to="/games"><button>Jouer au jeu</button></Link> 
+        <Link to="/classement"><button>Classement</button></Link> 
         </div>
         <div className="navbar-user-info">
           <p>Bienvenue,</p><span>User</span>
