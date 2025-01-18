@@ -12,7 +12,7 @@ const MainHome = ({ setChoiceDetails }) => {
 
   const handleSelect = (option) => {
     setSelectedOption(option);
-    setChoiceDetails(option, '', '', ''); // Réinitialise l'état global
+    setChoiceDetails(option, '', '', '');
     setPlayerOneName('');
     setPlayerTwoName('');
     setBotName('');

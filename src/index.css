@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Klee+One&family=Marko+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Klee+One&family=Marko+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap");
 
-
-/* === Global === */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +7,8 @@
   font-family: "Roboto", serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
@@ -29,7 +28,6 @@ body {
   flex-direction: column;
 }
 
-/* === Navbar === */
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -45,19 +43,17 @@ body {
   max-width: 1200px;
 }
 
-/* Section du logo */
 .navbar-logo img {
   height: 40px;
 }
 
-/* Boutons de navigation */
 .navbar-buttons {
   display: flex;
   gap: 1rem;
 }
 
 .navbar-buttons button {
-  background-color: #36CDCA;
+  background-color: #36cdca;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -65,16 +61,15 @@ body {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 4px #7D9AA7;
+  box-shadow: 0 4px #7d9aa7;
   transition: all 0.3s ease;
 }
 
 .navbar-buttons button:hover {
-  background-color: #2CA4A3;
-  box-shadow: 0 2px #132C36;
+  background-color: #2ca4a3;
+  box-shadow: 0 2px #132c36;
 }
 
-/* Informations utilisateur */
 .navbar-user-info {
   display: flex;
   align-items: center;
@@ -84,17 +79,15 @@ body {
 
 .navbar-user-info span {
   font-weight: bold;
-  color: #F6BC47;
+  color: #f6bc47;
 }
-
-/* === Contenu principal === */
 
 .text-choose-main {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  color: #F6BC47;
+  color: #f6bc47;
   font-weight: bold;
   margin-top: 5%;
 }
@@ -120,13 +113,13 @@ body {
 
 .home-main-left:hover,
 .home-main-right:hover {
-  border: solid 2px #36CDCA;
+  border: solid 2px #36cdca;
   cursor: pointer;
 }
 
 .home-main-left.selected,
 .home-main-right.selected {
-  border: solid 5px #36CDCA;
+  border: solid 5px #36cdca;
   cursor: pointer;
 }
 
@@ -140,7 +133,7 @@ body {
 .home-title p {
   font-size: 20px;
   font-weight: 700;
-  color: #36CDCA;
+  color: #36cdca;
 }
 
 .home-title img {
@@ -167,7 +160,7 @@ body {
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
-  color: #36CDCA;
+  color: #36cdca;
 }
 
 .input-fields input {
@@ -178,17 +171,13 @@ body {
   background-color: transparent;
   margin-left: 10px;
   font-size: 14px;
-  outline: none; 
+  outline: none;
 }
 
-
-
-/* === Flèche centrale === */
 .content-home-main > div:nth-child(2) img {
   height: 250px;
 }
 
-/* === Footer === */
 .content-footer {
   display: flex;
   justify-content: space-around;
@@ -211,9 +200,6 @@ body {
 .logo-footer img:hover {
   transform: scale(1.1);
 }
-
-
-/* CSS POUR LE CONTAINER GAMES */
 
 .game-container {
   flex: 1;
@@ -338,7 +324,6 @@ body {
   text-align: center;
 }
 
-/* CSS POUR LA PAGE DE CLASSEMENT */
 .classement-container {
   display: flex;
   justify-content: space-between;
@@ -347,8 +332,8 @@ body {
   flex: 1;
   width: 80%;
   height: auto;
-  margin: auto; /* Centre le container horizontalement */
-  margin-top: 5%; /* Ajoute un espace pour centrer verticalement */
+  margin: auto;
+  margin-top: 5%;
 }
 
 .content-left-classement,
@@ -365,7 +350,7 @@ body {
 .content-right-classement p {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #36CDCA;
+  color: #36cdca;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -385,7 +370,7 @@ ul {
 }
 
 li {
-  background-color: #36CDCA;
+  background-color: #36cdca;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
